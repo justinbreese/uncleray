@@ -1,0 +1,34 @@
+---
+title: false
+styles: true
+---
+.article h3 a, .article h2 a, .post-meta a, .item--nav a, .content a, .item--category a, .item--category a:hover {
+    color: #000000
+}
+.pottery-image {
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+// Typography
+$bodytype: (
+font-family: '"Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif',
+regular: 400,
+bold: 700,
+italic: italic,
+cap-height: 0.75
+) !default;
+
+$headingtype: (
+font-family: '"Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif',
+regular: 400,
+bold: 700,
+cap-height: 0.75
+) !default;
+
+@import "alembic";
+
+.typeset p a, .typeset li a {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #6e6e6e 50%)
+}
