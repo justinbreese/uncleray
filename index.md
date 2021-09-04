@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Home
-feature_image: /uncleray/assets/header.jpeg
+feature_image: /assets/header.jpeg
 ---
 ![Main pottery picture](/assets/20.jpeg)
 
