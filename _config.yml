@@ -52,6 +52,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - CNAME
 
 # Navigation #####################################################################
 navigation_header:
